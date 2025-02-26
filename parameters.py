@@ -16,15 +16,15 @@ def get_params(argv='1'):
         # INPUT PATH
         # dataset_dir='DCASE2020_SELD_dataset/',  # Base folder containing the foa/mic and metadata folders
         #dataset_dir='DCASE2024_SELD_dataset/',
-        dataset_dir='Dataset4_05_n10/',
+        dataset_dir='/nas/home/fferreri/baseline_codes/Dataset4_05_n10/',
 
         # OUTPUT PATHS
         # feat_label_dir='DCASE2020_SELD_dataset/feat_label_hnet/',  # Directory to dump extracted features and labels
         #feat_label_dir='DCASE2024_SELD_dataset/seld_feat_label/',
-        feat_label_dir='Dataset4_05_n10/seld_feat_label_avg/',
+        feat_label_dir='/nas/home/fferreri/baseline_codes/Dataset4_05_n10/seld_feat_label_avg/',
 
-        model_dir='models4_05_n10_avg',  # Dumps the trained models and training curves in this folder
-        dcase_output_dir='results4_05_n10_avg',  # recording-wise results are dumped in this path.
+        model_dir='/nas/home/fferreri/baseline_codes/models4_05_n10_avg',  # Dumps the trained models and training curves in this folder
+        dcase_output_dir='/nas/home/fferreri/baseline_codes/results4_05_n10_avg',  # recording-wise results are dumped in this path.
 
 
         # DATASET LOADING PARAMETERS
