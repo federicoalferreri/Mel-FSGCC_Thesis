@@ -6,11 +6,11 @@ Results demonstrate that Mel-FSGCC enhances sound event detection perfor- mance,
 Future work could explore more efficient ways to integrate this technique into deep learning networks, optimizing its computational feasibility for large-scale appli- cations. Additionally, testing Mel-FSGCC on new datasets may provide further insights or lead to unexpected findings and valuable advancements, refining its ap- plicability in acoustic scene analysis, spatial audio processing, and human-machine interaction.
 
 ## How to
-In the script 'pytorch_mel_fsgcc_cls_feature_class.py', the function extract_file_feature is responsible for extracting features from audio files using the Mel-FSGCC representation.
-The same function, but based on GCC, is available in the script cls_feature_class.py, which is identical to the one provided in the baseline on GitHub.
+In the script `pytorch_mel_fsgcc_cls_feature_class.py`, the function extract_file_feature is responsible for extracting features from audio files using the Mel-FSGCC representation.
+The same function, but based on GCC, is available in the script `cls_feature_class.py`, which is identical to the one provided in the DCASE 2024 Task 3 baseline on GitHub.
 
-The scripts mel_fsgcc_batch_feature_extraction.py and batch_feature_extraction.py handle the invocation of the functions responsible for feature extraction.
-Finally, the script mel_fsgcc_train_seldnet.py is used for model training.
+The scripts `mel_fsgcc_batch_feature_extraction.py` and `batch_feature_extraction.py` handle the invocation of the functions responsible for feature extraction.
+Finally, the script `mel_fsgcc_train_seldnet.py` is used for model training.
 
-For dataset generation, use the script pyroom.py located in the SpatialScaper folder.
-To modify specific parameters related to audio file generation, such as the SNR, refer to the script core.py.
+For dataset generation, use the script `pyroom.py` located in the SpatialScaper folder.
+To modify specific parameters related to audio file generation, such as the SNR, T60 and microphone spacing, refer to the script `core.py`.
